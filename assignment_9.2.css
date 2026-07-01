@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+
+h1 {
+	font-size: 40px;
+	color: #003079;
+	text-align: center;
+	font-weight: 800;
+}
+
+
+.main1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 0px 20px 0px 20px;
+	margin-top: 40px;
+	font-weight: 650;
+	color: #003059;
+}
+
+
+
+.Dtable1 {
+	width: 750px;
+	height: 250px;
+	display: table;
+	border: 2px solid black;
+	
+}
+
+.Dtable2 {
+	width: 350px;
+	height: 250px;
+	display: table;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.Dtable2 .Drow:nth-child(1) {
+	background-color: #fdbf49;
+}
+
+
+.Drow {
+	display: table-row;
+}
+
+.Dcell {
+	display: table-cell;
+	border: 1px solid gray;
+	padding: 5px 0px 0px 10px;
+}
+
+
+.image img{
+	height: 250px;
+	background-image: url("bunny.jpg");
+	background-size: cover;
+	margin-top: 35px;
+	border: 2px solid black;
+
+	
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+.main2 {
+	margin-top: 50px;
+	padding-left: 50px;
+	color: #003049
+}
+
+h4 {
+	margin: 10px 0px 10px 0px;
+}
+
+
+table {
+	border-collapse: collapse;
+	width: 1430px;
+	height: 200px;
+	text-align: center;
+	font-weight: 650;
+	border: 2px solid black;
+}
+
+.tr1 {
+	background-color: #fdbf49;	
+	font-weight: bolder;
+}
